@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parkinsans:wght@300..800&family=Viaoda+Libre&display=swap');
+:root{
+    --primary-color: #FED001
+    
+}
+html{
+    font-family: "Inter", sans-serif;
+     font:400 62.2%;
+}
+body{
+    font-family: "Inter", sans-serif;
+
+}
+p,a{
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+.upper{
+    text-transform: uppercase;
+    
+}
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    display: inline-block;
+    color: black;
+}
+.wrapperContainer{
+padding-top: 1px;
+}
+.wrapperContainer-dark{
+    background-color: #2a2a2a;
+    color: white;
+    
+  
+}
+.wrapperContainer-light{
+    background-color: #fafafa;
+}
+.wrapperContainer-dark2{
+    background-color: #003464;
+    color: #fafafa;
+}
+.container{
+    max-width:1276px;
+    margin:auto;
+}
+.section_title{
+    padding: 3.5rem 0;
+    text-align: center;
+}
+.section_btn{
+    margin:4.5rem 0 ;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--primary-color);
+    padding: 1rem 0;
+    
+
+}
+nav a{
+    color: inherit;
+}
+.header_nav a{
+    padding: .75rem 1.15rem;
+    border: solid 1px;
+    text-decoration: none;
+
+}
+.header_nav ul{
+    display: flex;
+    gap:.5rem;
+    list-style: none;
+}
+.header_nav a:hover{
+     background-color: black;
+}
+.wrapperContainer-hero{
+    background-image: linear-gradient(white,var(--primary-color));
+}
+.heroBanner{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 10rem;
+}
+.hero_title{
+    margin-bottom: 4rem;
+}
+.cursos{
+    text-align: center;
+}
+.cursosContainer{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+    
+}
+.curso_card{
+     /* border-radius: .9 rem;
+    border: 1px solid #8b8b8b; */
+    flex: 1;/* atalho para <'flex-grow'> <'flex-shrink' <'flex-basis'>  */
+}
+.curso_card h3{
+    font-size: 1.4rem;
+}
+.curso_card p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.curso_card img{
+    display: block;
+    width: 100%;
+}
+.cursos_card_content{
+    padding: 1rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 1rem 1rem;
+} 
+.escola{
+    display: flex;
+    gap: 6rem;
+    padding-top: 6rem;
+  
+}
+.escola_title{
+    font-size: 3.2rem;
+    margin-top: 3rem;
+
+}
+.escola p{
+    font-size: 1.2rem;
+    line-height:1.5rem;
+}
+.contatos_title{
+    text-align: center;
+}
+address{
+    text-align: right;
+    margin: 1rem;
+    font: 400 1.8rem "inter",sans-serif;
+    padding: 3rem 0;
+}
+footer{
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.6rem;
+
+}
+.wrappercontainer-fixed{
+position: sticky;
+width: 100%;
+top: 0;
+left: 0;
+}
+.wrapperContainer-pedded{
+    padding-top: 12rem;
+}
